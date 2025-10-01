@@ -26,8 +26,8 @@ def load_model():
     model = torch.hub.load("ultralytics/yolov5", "yolov5s")
     return model
 
-# Return object postition, will likely only need x for steering
-def read_offset(results):
+# Return dictionary of objects (offsets, boundbox area), will likely only need x-axis offset for steering
+def find_objects(results):
     debug = True
     if debug:
         results_pd = results.pandas().xyxy[0]
@@ -41,23 +41,36 @@ def read_offset(results):
             len_x = x_max - x_min
             len_y = y_max - y_min
             area = len_x * len_y
-            # Using results.xyxyn to get center also option, but I believe is more resource-intensive 
+            # Using results.xywh to get center also option, but I believe is more resource-intensive 
             # since we will need to reparse data.
             offset_x = (x_max + x_min) / 2
             offset_y = (y_max + y_min) / 2
-            items.append({"offset": offset_x, "area": area})
+            items.append({
+                "offset_x": offset_x, 
+                "offset_y": offset_y,
+                "area": area
+            })
             dbg_print(f"Offset: {offset_x}, {offset_y} of area {area} and type {type(offset_x)}")
     # TODO: integrate with motor control
-    closest_item = max([i["area"] for i in items])
-    for index, item in enumerate(items):
-        dbg_print(item)
-        if item["area"] == closest_item:
+    return items
+
+# find closest object and sets it as target
+# TODO: look into setting target in YOLO model
+def select_target(objects):
+    closest_obj_area = max([i["area"] for i in objects])
+    dbg_print(f"closest_obj_area: {closest_obj_area}")
+    for index, obj in enumerate(objects):
+        dbg_print(obj)
+        if obj["area"] == closest_obj_area:
             dbg_print(f"Index of closest object is {index}")
+            break
+    return obj
+
+
+def steer_motor(closest_obj, cam_w, cam_h):
     return
 
-def main(debug):
-    print(debug)
-    print_frame_results = True
+def main():
     dbg_print("In main...")
     model = load_model()
     cam = cv2.VideoCapture(0) # 0: default camera
@@ -72,18 +85,10 @@ def main(debug):
         if not ret:
             print("Couldn't receive video frame")
             break
-        # cv2.imshow("Video Capture", frame)
         results = model(frame)
-        if print_frame_results:
-            print("PRINTING FRAME RESULTS ********")
-            print(type(results))
-            print(results)
-            print(results.xyxyn[0]) # bounding box 0-1000?
-            print(results.xywhn[0])
-            read_offset(results)
-            print("PRINTING FRAME RESULTS ********")
-            # print_frame_results = False
-            break
+        objects_dict = find_objects(results)
+        closest_obj = select_target(objects_dict)
+        dbg_print(closest_obj)
         annotated_frame = results.render()[0]
         cv2.imshow("Labled Capture", annotated_frame)
         if cv2.waitKey(1) == ord('q'):
@@ -94,4 +99,4 @@ def main(debug):
 
 if __name__ == "__main__":
     args = parse_arguments()
-    main(args.debug)
+    main()
