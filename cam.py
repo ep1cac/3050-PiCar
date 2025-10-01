@@ -28,21 +28,28 @@ def load_model():
 
 # Return object postition, will likely only need x for steering
 def read_offset(results):
-    item_areas = []
-    results_pd = results.pandas().xyxy[0]
-    dbg_print(results_pd)
-    for i in range(len(results_pd)):
-        if results_pd["name"][i] == "person": # TODO: change to pole after training with custom dataset
-            len_x = results_pd["xmax"][i] - results_pd["xmin"][i]
-            len_y = results_pd["ymax"][i] - results_pd["ymin"][i]
-            area = (len_x * len_y)#.item()
-            offset_x = (results_pd["xmax"][i] + results_pd["xmin"][i]) / 2
-            offset_y = (results_pd["ymax"][i] + results_pd["ymin"][i]) / 2
-            item_areas.append({"offset": offset_x, "area": area})
+    debug = True
+    if debug:
+        results_pd = results.pandas().xyxy[0]
+        dbg_print(results_pd)
+
+    items = []
+    results = results.xyxy[0]
+    for result in results:
+        x_min, y_min, x_max, y_max, conf, cls = result
+        if cls.int() == 0: # TODO: change to pole after training with custom dataset 
+            len_x = x_max - x_min
+            len_y = y_max - y_min
+            area = len_x * len_y
+            # Using results.xyxyn to get center also option, but I believe is more resource-intensive 
+            # since we will need to reparse data.
+            offset_x = (x_max + x_min) / 2
+            offset_y = (y_max + y_min) / 2
+            items.append({"offset": offset_x, "area": area})
             dbg_print(f"Offset: {offset_x}, {offset_y} of area {area} and type {type(offset_x)}")
     # TODO: integrate with motor control
-    closest_item = max([i["area"] for i in item_areas])
-    for index, item in enumerate(item_areas):
+    closest_item = max([i["area"] for i in items])
+    for index, item in enumerate(items):
         dbg_print(item)
         if item["area"] == closest_item:
             dbg_print(f"Index of closest object is {index}")
