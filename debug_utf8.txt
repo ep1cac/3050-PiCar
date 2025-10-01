@@ -1,0 +1,1528 @@
+False
+[DEBUG]: In main...
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 4.3ms pre-process, 136.5ms inference, 111.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.72623e+01, 7.60540e+01, 6.24173e+02, 4.76311e+02, 3.56084e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  47.262329  76.054047  624.173218  476.310516    0.356084      0  person
+[DEBUG]: Offset: 335.7177734375, 276.1822814941406 of area 230912.3156466186 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(335.7177734375), 'area': np.float64(230912.3156466186)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.6ms pre-process, 14.5ms inference, 12.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 55.64981,  84.96114, 616.70227, 477.16864,   0.64991,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax       ymax  confidence  class    name
+0  55.649811  84.961136  616.702271  477.16864    0.649912      0  person
+[DEBUG]: Offset: 336.17604064941406, 281.0648880004883 of area 220048.98499145033 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(336.17604064941406), 'area': np.float64(220048.98499145033)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.4ms pre-process, 9.2ms inference, 2.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.67162e+01, 8.37516e+01, 6.24307e+02, 4.74949e+02, 6.11343e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  46.716156  83.751572  624.307251  474.949463    0.611343      0  person
+[DEBUG]: Offset: 335.51170349121094, 279.3505172729492 of area 225952.41834885674 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(335.51170349121094), 'area': np.float64(225952.41834885674)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 3.0ms pre-process, 9.7ms inference, 2.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[8.58669e+01, 9.13195e+01, 6.36402e+02, 4.74475e+02, 5.45008e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  85.866852  91.319504  636.402466  474.475037    0.545008      0  person
+[DEBUG]: Offset: 361.13465881347656, 282.8972702026367 of area 210940.7665331061 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(361.13465881347656), 'area': np.float64(210940.7665331061)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.8ms pre-process, 8.5ms inference, 1.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[9.47762e+01, 9.04552e+01, 6.31694e+02, 4.75190e+02, 5.16741e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin      ymin        xmax        ymax  confidence  class    name
+0  94.776245  90.45517  631.694336  475.190338    0.516741      0  person
+[DEBUG]: Offset: 363.23529052734375, 282.82275390625 of area 206571.27211938053 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(363.23529052734375), 'area': np.float64(206571.27211938053)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 3.5ms pre-process, 15.1ms inference, 3.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.36415e+01, 8.33412e+01, 6.22072e+02, 4.75209e+02, 5.68375e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax       ymax  confidence  class    name
+0  43.641479  83.341187  622.071655  475.20929    0.568375      0  person
+[DEBUG]: Offset: 332.8565673828125, 279.2752380371094 of area 226668.33571717143 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(332.8565673828125), 'area': np.float64(226668.33571717143)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.9ms pre-process, 12.0ms inference, 3.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 46.87021,  84.87326, 625.19287, 476.31259,   0.63812,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin      ymin        xmax        ymax  confidence  class    name
+0  46.870209  84.87326  625.192871  476.312592    0.638124      0  person
+[DEBUG]: Offset: 336.0315399169922, 280.5929260253906 of area 226378.23608542606 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(336.0315399169922), 'area': np.float64(226378.23608542606)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 3.4ms pre-process, 16.7ms inference, 4.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[5.01922e+01, 8.29174e+01, 6.22580e+02, 4.76765e+02, 5.99630e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax        ymax  confidence  class    name
+0  50.19223  82.917374  622.579834  476.765137     0.59963      0  person
+[DEBUG]: Offset: 336.3860321044922, 279.8412551879883 of area 225433.57734492933 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(336.3860321044922), 'area': np.float64(225433.57734492933)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.3ms pre-process, 15.2ms inference, 2.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.98084e+01, 8.35670e+01, 6.20115e+02, 4.78685e+02, 5.58062e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  49.808411  83.567047  620.115234  478.684662    0.558062      0  person
+[DEBUG]: Offset: 334.9618225097656, 281.1258544921875 of area 225338.27186580375 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(334.9618225097656), 'area': np.float64(225338.27186580375)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.0ms pre-process, 15.8ms inference, 3.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[9.52736e+01, 9.04577e+01, 6.28134e+02, 4.76165e+02, 5.80736e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax        ymax  confidence  class    name
+0  95.27359  90.457733  628.134399  476.165192    0.580736      0  person
+[DEBUG]: Offset: 361.70399475097656, 283.31146240234375 of area 205528.38849736936 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(361.70399475097656), 'area': np.float64(205528.38849736936)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.5ms pre-process, 15.2ms inference, 2.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[9.51750e+01, 8.95745e+01, 6.28699e+02, 4.76384e+02, 5.76628e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  95.175018  89.574478  628.699463  476.384155    0.576628      0  person
+[DEBUG]: Offset: 361.93724060058594, 282.9793167114258 of area 206372.41814579396 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(361.93724060058594), 'area': np.float64(206372.41814579396)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 3.5ms pre-process, 16.3ms inference, 4.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.49387e+01, 8.14686e+01, 6.25635e+02, 4.76722e+02, 5.28242e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax        ymax  confidence  class    name
+0  44.93866  81.468597  625.634888  476.721893    0.528242      0  person
+[DEBUG]: Offset: 335.2867736816406, 279.0952453613281 of area 229522.09804359823 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(335.2867736816406), 'area': np.float64(229522.09804359823)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 3.5ms pre-process, 9.1ms inference, 1.7ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 51.89832,  81.97012, 621.13672, 478.25461,   0.67373,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  51.898315  81.970123  621.136719  478.254608    0.673731      0  person
+[DEBUG]: Offset: 336.51751708984375, 280.11236572265625 of area 225580.34742418677 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(336.51751708984375), 'area': np.float64(225580.34742418677)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.5ms pre-process, 9.8ms inference, 2.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[115.25497,  90.50676, 618.51807, 477.03345,   0.63840,   0.00000]], device='cuda:0')
+[DEBUG]:          xmin      ymin        xmax        ymax  confidence  class    name
+0  115.254974  90.50676  618.518066  477.033447    0.638396      0  person
+[DEBUG]: Offset: 366.8865203857422, 283.77010345458984 of area 194524.61596905487 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(366.8865203857422), 'area': np.float64(194524.61596905487)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.5ms pre-process, 15.6ms inference, 4.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.04208e+02, 8.49323e+01, 6.28617e+02, 4.77812e+02, 5.92719e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin       ymin       xmax        ymax  confidence  class    name
+0  104.208435  84.932312  628.61676  477.812073    0.592719      0  person
+[DEBUG]: Offset: 366.41259765625, 281.3721923828125 of area 206029.41733394563 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(366.41259765625), 'area': np.float64(206029.41733394563)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.9ms pre-process, 14.9ms inference, 3.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.10406e+02, 8.71604e+01, 6.27587e+02, 4.77644e+02, 5.86283e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  110.40567  87.160385  627.587036  477.644226    0.586283      0  person
+[DEBUG]: Offset: 368.99635314941406, 282.40230560302734 of area 201950.966246543 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(368.99635314941406), 'area': np.float64(201950.966246543)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.3ms pre-process, 18.3ms inference, 4.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.06327e+02, 8.85266e+01, 6.32177e+02, 4.76950e+02, 4.85860e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin      ymin        xmax       ymax  confidence  class    name
+0  106.326843  88.52655  632.176697  476.94989     0.48586      0  person
+[DEBUG]: Offset: 369.25177001953125, 282.73822021484375 of area 204252.35635888577 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(369.25177001953125), 'area': np.float64(204252.35635888577)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 3.7ms pre-process, 15.6ms inference, 3.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.13221e+02, 8.79888e+01, 6.29244e+02, 4.76374e+02, 6.03480e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class    name
+0  113.221375  87.988846  629.243896  476.373535     0.60348      0  person
+[DEBUG]: Offset: 371.2326354980469, 282.18119049072266 of area 200415.24688417744 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(371.2326354980469), 'area': np.float64(200415.24688417744)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.9ms pre-process, 15.8ms inference, 3.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.01987e+02, 8.77235e+01, 6.34272e+02, 4.78005e+02, 5.88128e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin      ymin        xmax        ymax  confidence  class    name
+0  101.987183  87.72348  634.272095  478.004608    0.588128      0  person
+[DEBUG]: Offset: 368.129638671875, 282.8640441894531 of area 207740.75587800145 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(368.129638671875), 'area': np.float64(207740.75587800145)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.0ms pre-process, 14.8ms inference, 3.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.11890e+02, 8.96165e+01, 6.29947e+02, 4.75994e+02, 6.14047e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  111.88974  89.616547  629.946899  475.993866    0.614047      0  person
+[DEBUG]: Offset: 370.91831970214844, 282.8052062988281 of area 200165.53652096912 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(370.91831970214844), 'area': np.float64(200165.53652096912)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.6ms pre-process, 16.0ms inference, 4.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.02033e+02, 8.96588e+01, 6.36205e+02, 4.76765e+02, 6.35114e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin       ymin      xmax        ymax  confidence  class    name
+0  102.033051  89.658752  636.2052  476.764893    0.635114      0  person
+[DEBUG]: Offset: 369.11912536621094, 283.2118225097656 of area 206781.31902272068 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(369.11912536621094), 'area': np.float64(206781.31902272068)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.3ms pre-process, 17.2ms inference, 3.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.00622e+02, 8.95226e+01, 6.35632e+02, 4.77052e+02, 6.24616e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class    name
+0  100.621735  89.522629  635.632324  477.051941    0.624616      0  person
+[DEBUG]: Offset: 368.1270294189453, 283.2872848510742 of area 207332.28577182954 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(368.1270294189453), 'area': np.float64(207332.28577182954)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.0ms pre-process, 12.4ms inference, 1.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[9.87313e+01, 8.56587e+01, 6.34965e+02, 4.78139e+02, 5.62948e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  98.731293  85.658722  634.964966  478.138641    0.562948      0  person
+[DEBUG]: Offset: 366.84812927246094, 281.898681640625 of area 210460.9488141816 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(366.84812927246094), 'area': np.float64(210460.9488141816)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.7ms pre-process, 14.2ms inference, 2.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.06426e+02, 8.54176e+01, 6.35746e+02, 4.79238e+02, 3.31124e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class    name
+0  106.425812  85.417572  635.745972  479.238495    0.331124      0  person
+[DEBUG]: Offset: 371.0858917236328, 282.3280334472656 of area 208457.35386052355 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(371.0858917236328), 'area': np.float64(208457.35386052355)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.2ms pre-process, 15.6ms inference, 3.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[9.79294e+01, 8.63017e+01, 6.39092e+02, 4.78155e+02, 5.89810e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  97.929443  86.301682  639.091675  478.154907     0.58981      0  person
+[DEBUG]: Offset: 368.51055908203125, 282.2282943725586 of area 212056.1660231892 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(368.51055908203125), 'area': np.float64(212056.1660231892)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.7ms pre-process, 16.2ms inference, 3.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[9.49444e+01, 8.55520e+01, 6.38268e+02, 4.76990e+02, 5.80583e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  94.944397  85.551971  638.268372  476.990021    0.580583      0  person
+[DEBUG]: Offset: 366.60638427734375, 281.27099609375 of area 212677.6767679304 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(366.60638427734375), 'area': np.float64(212677.6767679304)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.9ms pre-process, 15.3ms inference, 3.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[8.36959e+01, 8.34079e+01, 6.35368e+02, 4.76235e+02, 3.86858e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax       ymax  confidence  class    name
+0  83.695862  83.407883  635.368164  476.23468    0.386858      0  person
+[DEBUG]: Offset: 359.5320129394531, 279.82128143310547 of area 216711.66375270393 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(359.5320129394531), 'area': np.float64(216711.66375270393)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.8ms pre-process, 11.5ms inference, 1.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[8.08014e+01, 8.56029e+01, 6.37104e+02, 4.76509e+02, 5.31206e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  80.801422  85.602921  637.103638  476.508606    0.531206      0  person
+[DEBUG]: Offset: 358.95252990722656, 281.0557632446289 of area 217461.69888314093 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(358.95252990722656), 'area': np.float64(217461.69888314093)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.6ms pre-process, 13.7ms inference, 5.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[7.99819e+01, 9.12948e+01, 6.35362e+02, 4.75768e+02, 4.53511e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin      ymin        xmax        ymax  confidence  class    name
+0  79.981873  91.29483  635.362244  475.768097    0.453511      0  person
+[DEBUG]: Offset: 357.67205810546875, 283.5314636230469 of area 213528.90548080206 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(357.67205810546875), 'area': np.float64(213528.90548080206)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.5ms pre-process, 17.7ms inference, 1.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.74585e+01, 8.50214e+01, 6.28860e+02, 4.78101e+02, 4.75337e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  37.458527  85.021393  628.860107  478.101166    0.475337      0  person
+[DEBUG]: Offset: 333.15931701660156, 281.561279296875 of area 232467.9991068188 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(333.15931701660156), 'area': np.float64(232467.9991068188)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.4ms pre-process, 14.0ms inference, 3.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[9.30820e+01, 9.25378e+01, 6.21559e+02, 4.74688e+02, 5.86275e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax        ymax  confidence  class    name
+0  93.08197  92.537827  621.559326  474.688477    0.586275      0  person
+[DEBUG]: Offset: 357.3206481933594, 283.61315155029297 of area 201957.96510216314 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(357.3206481933594), 'area': np.float64(201957.96510216314)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.6ms pre-process, 8.5ms inference, 1.7ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.32448e+01, 8.79106e+01, 6.31376e+02, 4.75733e+02, 6.06535e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  33.244751  87.910599  631.376465  475.733032    0.606535      0  person
+[DEBUG]: Offset: 332.31060791015625, 281.82181549072266 of area 231968.89680855907 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(332.31060791015625), 'area': np.float64(231968.89680855907)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.8ms pre-process, 12.2ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[8.74059e+01, 9.38209e+01, 6.40000e+02, 4.75388e+02, 6.29897e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin   xmax        ymax  confidence  class    name
+0  87.405945  93.820923  640.0  475.388245    0.629897      0  person
+[DEBUG]: Offset: 363.7029724121094, 284.6045837402344 of area 210851.83366350457 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(363.7029724121094), 'area': np.float64(210851.83366350457)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.3ms pre-process, 11.5ms inference, 2.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[8.04017e+01, 8.73986e+01, 6.40000e+02, 4.72934e+02, 5.27773e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin   xmax        ymax  confidence  class    name
+0  80.401733  87.398575  640.0  472.934143    0.527773      0  person
+[DEBUG]: Offset: 360.20086669921875, 280.1663589477539 of area 215745.03569884412 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(360.20086669921875), 'area': np.float64(215745.03569884412)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 4.0ms pre-process, 15.2ms inference, 3.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[8.64917e+01, 8.89907e+01, 6.38221e+02, 4.72573e+02, 6.08120e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax        ymax  confidence  class    name
+0  86.49173  88.990692  638.220825  472.573456     0.60812      0  person
+[DEBUG]: Offset: 362.3562774658203, 280.7820739746094 of area 211633.77123434097 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(362.3562774658203), 'area': np.float64(211633.77123434097)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.4ms pre-process, 11.9ms inference, 2.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[8.48747e+01, 8.75266e+01, 6.35830e+02, 4.75378e+02, 6.18546e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  84.874695  87.526596  635.830261  475.378235    0.618546      0  person
+[DEBUG]: Offset: 360.35247802734375, 281.4524154663086 of area 213689.01933331043 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(360.35247802734375), 'area': np.float64(213689.01933331043)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.4ms pre-process, 12.0ms inference, 3.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[8.68786e+01, 8.48756e+01, 6.40000e+02, 4.75804e+02, 6.34170e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin   xmax        ymax  confidence  class    name
+0  86.878632  84.875565  640.0  475.804077     0.63417      0  person
+[DEBUG]: Offset: 363.43931579589844, 280.3398208618164 of area 216230.91382429516 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(363.43931579589844), 'area': np.float64(216230.91382429516)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.5ms pre-process, 13.1ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[6.97413e+01, 8.57068e+01, 6.03574e+02, 4.75459e+02, 5.42226e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin       xmax        ymax  confidence  class    name
+0  69.741272  85.706757  603.57373  475.459076    0.542226      0  person
+[DEBUG]: Offset: 336.6575012207031, 280.5829162597656 of area 208062.43883565813 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(336.6575012207031), 'area': np.float64(208062.43883565813)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.8ms pre-process, 14.2ms inference, 3.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.76014e+01, 9.08161e+01, 6.28983e+02, 4.75515e+02, 5.93401e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  37.601379  90.816055  628.983337  475.514587    0.593401      0  person
+[DEBUG]: Offset: 333.2923583984375, 283.16532135009766 of area 227503.7711586859 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(333.2923583984375), 'area': np.float64(227503.7711586859)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.3ms pre-process, 12.7ms inference, 2.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[6.70281e+01, 8.79424e+01, 5.89807e+02, 4.77647e+02, 5.25483e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  67.028107  87.942383  589.807495  477.647461    0.525483      0  person
+[DEBUG]: Offset: 328.4178009033203, 282.794921875 of area 203729.78240936995 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(328.4178009033203), 'area': np.float64(203729.78240936995)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.6ms pre-process, 14.5ms inference, 3.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 57.43591,  85.38292, 604.95007, 478.82037,   0.61292,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  57.435913  85.382919  604.950073  478.820374    0.612916      0  person
+[DEBUG]: Offset: 331.1929931640625, 282.10164642333984 of area 215412.57732326537 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(331.1929931640625), 'area': np.float64(215412.57732326537)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.7ms pre-process, 14.8ms inference, 3.7ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 53.68561,  87.62117, 617.06183, 476.12793,   0.71682,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin      ymin        xmax       ymax  confidence  class    name
+0  53.685608  87.62117  617.061829  476.12793    0.716815      0  person
+[DEBUG]: Offset: 335.37371826171875, 281.87454986572266 of area 218875.4699656032 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(335.37371826171875), 'area': np.float64(218875.4699656032)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.4ms pre-process, 16.3ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 70.76501,  88.28786, 630.91168, 476.43658,   0.63812,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  70.765015  88.287857  630.911682  476.436584    0.638119      0  person
+[DEBUG]: Offset: 350.8383483886719, 282.36222076416016 of area 217420.21614941303 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(350.8383483886719), 'area': np.float64(217420.21614941303)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.1ms pre-process, 14.8ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 72.92111,  91.14839, 626.59302, 476.77753,   0.66247,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  72.921112  91.148392  626.593018  476.777527    0.662469      0  person
+[DEBUG]: Offset: 349.75706481933594, 283.9629592895508 of area 213512.01807153923 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(349.75706481933594), 'area': np.float64(213512.01807153923)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.4ms pre-process, 17.3ms inference, 4.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 60.35632,  88.42714, 621.94025, 479.15393,   0.71906,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  60.356323  88.427139  621.940247  479.153931    0.719056      0  person
+[DEBUG]: Offset: 341.1482849121094, 283.79053497314453 of area 219425.88445820007 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(341.1482849121094), 'area': np.float64(219425.88445820007)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.6ms pre-process, 15.1ms inference, 2.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 65.32571,  89.91989, 622.82739, 480.00000,   0.67934,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax   ymax  confidence  class    name
+0  65.325714  89.919891  622.827393  480.0    0.679344      0  person
+[DEBUG]: Offset: 344.07655334472656, 284.95994567871094 of area 217470.31530474778 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(344.07655334472656), 'area': np.float64(217470.31530474778)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.4ms pre-process, 13.0ms inference, 2.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 73.07513,  92.18282, 614.59680, 478.10474,   0.74434,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin       ymin        xmax        ymax  confidence  class    name
+0  73.075134  92.182816  614.596802  478.104736    0.744343      0  person
+[DEBUG]: Offset: 343.8359680175781, 285.1437759399414 of area 208985.08205608372 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(343.8359680175781), 'area': np.float64(208985.08205608372)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 3.0ms pre-process, 14.7ms inference, 2.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[6.54059e+01, 9.01567e+01, 6.12073e+02, 4.77677e+02, 6.36477e-01, 0.00000e+00],
+        [4.14458e+02, 8.82299e-01, 4.94847e+02, 6.10280e+01, 3.03465e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0   65.405853  90.156708  612.072876  477.676971    0.636477      0   person
+1  414.458374   0.882299  494.846741   61.027985    0.303465     29  frisbee
+[DEBUG]: Offset: 338.73936462402344, 283.9168395996094 of area 211844.54877939075 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(338.73936462402344), 'area': np.float64(211844.54877939075)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.1ms pre-process, 14.1ms inference, 2.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[5.21150e+01, 8.83711e+01, 6.15784e+02, 4.80000e+02, 4.64014e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax   ymax  confidence  class    name
+0  52.11499  88.371124  615.784241  480.0    0.464014      0  person
+[DEBUG]: Offset: 333.9496154785156, 284.18556213378906 of area 220749.15485366248 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(333.9496154785156), 'area': np.float64(220749.15485366248)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 13.8ms inference, 3.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.15319e+01, 8.52968e+01, 5.90800e+02, 4.79007e+02, 6.06276e-01, 0.00000e+00],
+        [4.13361e+02, 1.00341e+00, 4.94890e+02, 6.11507e+01, 5.29250e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0   31.531891  85.296814  590.799683  479.006775    0.606276      0   person
+1  413.361206   1.003407  494.890076   61.150677    0.529250     29  frisbee
+[DEBUG]: Offset: 311.16578674316406, 282.15179443359375 of area 220189.30044272542 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(311.16578674316406), 'area': np.float64(220189.30044272542)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.0ms pre-process, 15.8ms inference, 3.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.20211e+01, 8.90367e+01, 5.96359e+02, 4.78970e+02, 5.57622e-01, 0.00000e+00],
+        [4.13719e+02, 1.15832e+00, 4.94555e+02, 6.10616e+01, 4.05924e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0   22.021057  89.036743  596.358948  478.969849    0.557622      0   person
+1  413.718933   1.158318  494.554871   61.061615    0.405924     29  frisbee
+[DEBUG]: Offset: 309.19000244140625, 284.0032958984375 of area 223953.35727977753 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(309.19000244140625), 'area': np.float64(223953.35727977753)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.5ms pre-process, 17.2ms inference, 4.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.97068e+01, 8.88580e+01, 5.86132e+02, 4.76737e+02, 4.99812e-01, 0.00000e+00],
+        [4.13386e+02, 1.06500e+00, 4.94518e+02, 6.11430e+01, 4.29946e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0   29.706848  88.858017  586.131592  476.737305    0.499812      0   person
+1  413.386383   1.065001  494.518036   61.142952    0.429946     29  frisbee
+[DEBUG]: Offset: 307.9192199707031, 282.7976608276367 of area 215825.63323750254 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(307.9192199707031), 'area': np.float64(215825.63323750254)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.8ms pre-process, 15.4ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.83049e+01, 8.25215e+01, 5.83696e+02, 4.78023e+02, 6.18775e-01, 0.00000e+00],
+        [4.13305e+02, 1.00801e+00, 4.94948e+02, 6.11526e+01, 4.63307e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0   28.304871  82.521530  583.695984  478.022644    0.618775      0   person
+1  413.305359   1.008015  494.948059   61.152592    0.463307     29  frisbee
+[DEBUG]: Offset: 306.00042724609375, 280.27208709716797 of area 219657.80394823104 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(306.00042724609375), 'area': np.float64(219657.80394823104)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.4ms pre-process, 14.8ms inference, 3.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.13393e+02, 1.04523e+00, 4.94790e+02, 6.13037e+01, 5.86332e-01, 2.90000e+01],
+        [2.33473e+01, 7.97552e+01, 5.84859e+02, 4.77864e+02, 3.91329e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0  413.393402   1.045225  494.790192   61.303658    0.586332     29  frisbee
+1   23.347290  79.755249  584.859436  477.863770    0.391329      0   person
+[DEBUG]: Offset: 304.1033630371094, 278.80950927734375 of area 223542.7696896717 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(304.1033630371094), 'area': np.float64(223542.7696896717)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 14.0ms inference, 2.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.47958e+01, 8.71516e+01, 5.46271e+02, 4.78643e+02, 5.82225e-01, 0.00000e+00],
+        [4.13216e+02, 1.14755e+00, 4.94706e+02, 6.13885e+01, 4.25441e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0   14.795837  87.151566  546.270569  478.642944    0.582225      0   person
+1  413.216156   1.147552  494.706390   61.388550    0.425441     29  frisbee
+[DEBUG]: Offset: 280.533203125, 282.89725494384766 of area 208067.775402477 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(280.533203125), 'area': np.float64(208067.775402477)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.6ms pre-process, 16.1ms inference, 3.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.13439e+02, 1.19038e+00, 4.94862e+02, 6.16707e+01, 5.71798e-01, 2.90000e+01],
+        [4.37958e+00, 8.50941e+01, 5.26155e+02, 4.79553e+02, 5.24301e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0  413.438660   1.190384  494.861938   61.670670    0.571798     29  frisbee
+1    4.379578  85.094116  526.155396  479.553467    0.524301      0   person
+[DEBUG]: Offset: 265.2674865722656, 282.32379150390625 of area 205819.35026887804 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(265.2674865722656), 'area': np.float64(205819.35026887804)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 15.0ms inference, 4.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[9.91943e-01, 7.68357e+01, 5.35274e+02, 4.80000e+02, 5.30336e-01, 0.00000e+00],
+        [4.13231e+02, 1.04894e+00, 4.94673e+02, 6.12632e+01, 3.78990e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0    0.991943  76.835693  535.273987  480.000000    0.530336      0   person
+1  413.231293   1.048943  494.673309   61.263229    0.378990     29  frisbee
+[DEBUG]: Offset: 268.1329650878906, 278.4178466796875 of area 215403.44960089028 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(268.1329650878906), 'area': np.float64(215403.44960089028)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.4ms pre-process, 16.6ms inference, 2.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[9.91943e-01, 7.68357e+01, 5.35274e+02, 4.80000e+02, 5.30336e-01, 0.00000e+00],
+        [4.13231e+02, 1.04894e+00, 4.94673e+02, 6.12632e+01, 3.78990e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0    0.991943  76.835693  535.273987  480.000000    0.530336      0   person
+1  413.231293   1.048943  494.673309   61.263229    0.378990     29  frisbee
+[DEBUG]: Offset: 268.1329650878906, 278.4178466796875 of area 215403.44960089028 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(268.1329650878906), 'area': np.float64(215403.44960089028)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 12.9ms inference, 2.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.58337e+00, 8.20218e+01, 4.98905e+02, 4.77106e+02, 6.89701e-01, 0.00000e+00],
+        [4.13348e+02, 1.00533e+00, 4.94775e+02, 6.12655e+01, 4.11226e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0    4.583374  82.021774  498.904816  477.105530    0.689701      0   person
+1  413.348358   1.005331  494.774994   61.265511    0.411226     29  frisbee
+[DEBUG]: Offset: 251.7440948486328, 279.5636520385742 of area 195298.3715880313 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(251.7440948486328), 'area': np.float64(195298.3715880313)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.6ms pre-process, 15.1ms inference, 3.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  7.07587,  85.66580, 490.69794, 480.00000,   0.57066,   0.00000],
+        [413.33801,   1.09957, 495.02960,  61.50772,   0.54400,  29.00000]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0    7.075867  85.665802  490.697937  480.000000    0.570664      0   person
+1  413.338013   1.099566  495.029602   61.507721    0.544003     29  frisbee
+[DEBUG]: Offset: 248.88690185546875, 282.83290100097656 of area 190708.72123083472 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(248.88690185546875), 'area': np.float64(190708.72123083472)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.3ms pre-process, 15.1ms inference, 4.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  3.95422,  87.70827, 483.85953, 480.00000,   0.65798,   0.00000]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax   ymax  confidence  class    name
+0  3.954224  87.708267  483.859528  480.0    0.657982      0  person
+[DEBUG]: Offset: 243.90687561035156, 283.85413360595703 of area 188262.88326273067 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(243.90687561035156), 'area': np.float64(188262.88326273067)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.5ms pre-process, 16.6ms inference, 3.7ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.38571e+00, 6.29832e+01, 4.55342e+02, 4.80000e+02, 4.20731e-01, 0.00000e+00],
+        [4.13286e+02, 1.18745e+00, 4.95020e+02, 6.11656e+01, 2.72499e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0    2.385712  62.983246  455.342438  480.000000    0.420731      0   person
+1  413.286102   1.187450  495.019928   61.165607    0.272499     29  frisbee
+[DEBUG]: Offset: 228.86407470703125, 271.4916229248047 of area 188890.5436780583 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(228.86407470703125), 'area': np.float64(188890.5436780583)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.1ms pre-process, 16.5ms inference, 2.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.61284e+00, 1.12065e+02, 4.49321e+02, 4.77036e+02, 3.85895e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin        ymin        xmax        ymax  confidence  class    name
+0  3.612839  112.064774  449.320984  477.036377    0.385895      0  person
+[DEBUG]: Offset: 226.46691131591797, 294.55057525634766 of area 162670.8163778975 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(226.46691131591797), 'area': np.float64(162670.8163778975)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.5ms pre-process, 15.6ms inference, 3.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[5.35310e+00, 9.78330e+01, 4.27730e+02, 4.78623e+02, 4.45791e-01, 0.00000e+00],
+        [4.13308e+02, 1.19951e+00, 4.94751e+02, 6.14419e+01, 2.68633e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0    5.353104  97.833008  427.730286  478.622925    0.445791      0   person
+1  413.307800   1.199507  494.751404   61.441872    0.268633     29  frisbee
+[DEBUG]: Offset: 216.54169464111328, 288.22796630859375 of area 160836.97207577713 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(216.54169464111328), 'area': np.float64(160836.97207577713)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.5ms pre-process, 14.1ms inference, 4.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[5.35310e+00, 9.78330e+01, 4.27730e+02, 4.78623e+02, 4.45791e-01, 0.00000e+00],
+        [4.13308e+02, 1.19951e+00, 4.94751e+02, 6.14419e+01, 2.68633e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0    5.353104  97.833008  427.730286  478.622925    0.445791      0   person
+1  413.307800   1.199507  494.751404   61.441872    0.268633     29  frisbee
+[DEBUG]: Offset: 216.54169464111328, 288.22796630859375 of area 160836.97207577713 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(216.54169464111328), 'area': np.float64(160836.97207577713)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.1ms pre-process, 16.0ms inference, 3.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.13400e+02, 1.12169e+00, 4.95119e+02, 6.13577e+01, 3.37147e-01, 2.90000e+01],
+        [7.64476e+00, 7.83262e+01, 4.14596e+02, 4.80000e+02, 3.16612e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0  413.399902   1.121695  495.119324   61.357658    0.337147     29  frisbee
+1    7.644760  78.326202  414.596252  480.000000    0.316612      0   person
+[DEBUG]: Offset: 211.1205062866211, 279.16310119628906 of area 163461.75135799265 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(211.1205062866211), 'area': np.float64(163461.75135799265)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.3ms pre-process, 15.5ms inference, 3.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[6.46323e+00, 7.85894e+01, 4.17172e+02, 4.80000e+02, 4.68299e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax   ymax  confidence  class    name
+0  6.463226  78.589355  417.171814  480.0    0.468299      0  person
+[DEBUG]: Offset: 211.81752014160156, 279.294677734375 of area 164862.79888169467 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(211.81752014160156), 'area': np.float64(164862.79888169467)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.1ms pre-process, 14.7ms inference, 2.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[5.30458e+00, 7.47576e+01, 4.11399e+02, 4.80000e+02, 4.24768e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax   ymax  confidence  class    name
+0  5.304581  74.757584  411.398804  480.0    0.424768      0  person
+[DEBUG]: Offset: 208.35169219970703, 277.37879180908203 of area 164566.60421632626 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(208.35169219970703), 'area': np.float64(164566.60421632626)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.4ms pre-process, 15.5ms inference, 2.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.13432e+02, 1.10708e+00, 4.95118e+02, 6.15561e+01, 3.94124e-01, 2.90000e+01],
+        [8.61270e+00, 1.14937e+02, 4.06624e+02, 4.78596e+02, 3.48303e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0  413.432251    1.107080  495.117920   61.556114    0.394124     29  frisbee
+1    8.612701  114.937256  406.624115  478.595947    0.348303      0   person
+[DEBUG]: Offset: 207.618408203125, 296.7666015625 of area 144740.30982515216 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(207.618408203125), 'area': np.float64(144740.30982515216)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.2ms pre-process, 14.5ms inference, 2.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  9.59016, 118.13768, 361.24048, 478.54504,   0.57844,   0.00000]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax        ymax  confidence  class    name
+0  9.590164  118.13768  361.240479  478.545044    0.578437      0  person
+[DEBUG]: Offset: 185.41532135009766, 298.3413619995117 of area 126737.3627997085 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(185.41532135009766), 'area': np.float64(126737.3627997085)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.9ms pre-process, 13.5ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  9.05974, 132.00592, 362.81842, 477.14972,   0.58421,   0.00000]], device='cuda:0')
+[DEBUG]:        xmin       ymin       xmax        ymax  confidence  class    name
+0  9.059738  132.00592  362.81842  477.149719    0.584207      0  person
+[DEBUG]: Offset: 185.93907928466797, 304.57781982421875 of area 122097.61546053365 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(185.93907928466797), 'area': np.float64(122097.61546053365)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 13.6ms inference, 3.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[6.97279e+00, 1.35055e+02, 3.61448e+02, 4.78788e+02, 4.94456e-01, 0.00000e+00],
+        [4.13394e+02, 1.07674e+00, 4.94937e+02, 6.14424e+01, 3.51902e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    6.972794  135.054581  361.447754  478.787598    0.494456      0   person
+1  413.393524    1.076744  494.936798   61.442429    0.351902     29  frisbee
+[DEBUG]: Offset: 184.21027374267578, 306.9210891723633 of area 121844.74755278253 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(184.21027374267578), 'area': np.float64(121844.74755278253)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.6ms pre-process, 9.8ms inference, 3.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.55367e+00, 1.37941e+02, 3.09540e+02, 4.79791e+02, 5.57488e-01, 0.00000e+00],
+        [4.13239e+02, 1.09559e+00, 4.94950e+02, 6.12881e+01, 3.77325e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    1.553665  137.941422  309.540405  479.790710    0.557488      0   person
+1  413.238953    1.095591  494.950195   61.288132    0.377325     29  frisbee
+[DEBUG]: Offset: 155.54703521728516, 308.8660659790039 of area 105285.04811047227 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(155.54703521728516), 'area': np.float64(105285.04811047227)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.5ms pre-process, 13.6ms inference, 3.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.29944e+00, 1.42367e+02, 3.01118e+02, 4.79622e+02, 6.15947e-01, 0.00000e+00],
+        [4.13107e+02, 1.18788e+00, 4.94808e+02, 6.13413e+01, 2.81679e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    2.299438  142.366531  301.117981  479.621704    0.615947      0   person
+1  413.106964    1.187883  494.807770   61.341309    0.281679     29  frisbee
+[DEBUG]: Offset: 151.70870971679688, 310.9941177368164 of area 100778.09915902559 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(151.70870971679688), 'area': np.float64(100778.09915902559)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 16.8ms inference, 4.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.65182e+00, 1.37991e+02, 3.00405e+02, 4.78410e+02, 6.06244e-01, 0.00000e+00],
+        [4.13098e+02, 1.07693e+00, 4.94567e+02, 6.14512e+01, 3.12896e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    1.651825  137.991302  300.404877  478.410126    0.606244      0   person
+1  413.097900    1.076933  494.566956   61.451195    0.312896     29  frisbee
+[DEBUG]: Offset: 151.02835083007812, 308.2007141113281 of area 101701.16231940687 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(151.02835083007812), 'area': np.float64(101701.16231940687)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 14.9ms inference, 3.7ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.98700e+00, 1.43886e+02, 2.85106e+02, 4.76692e+02, 6.83729e-01, 0.00000e+00],
+        [4.13159e+02, 1.01875e+00, 4.94768e+02, 6.13269e+01, 3.85245e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:         xmin        ymin        xmax        ymax  confidence  class     name
+0    1.98700  143.885559  285.105835  476.692200    0.683729      0   person
+1  413.15918    1.018755  494.768494   61.326866    0.385245     29  frisbee
+[DEBUG]: Offset: 143.54641723632812, 310.28887939453125 of area 94223.82852351665 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(143.54641723632812), 'area': np.float64(94223.82852351665)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.9ms pre-process, 13.6ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.55544e+00, 1.44216e+02, 2.76678e+02, 4.78851e+02, 6.86453e-01, 0.00000e+00],
+        [4.13465e+02, 9.55683e-01, 4.94826e+02, 6.11706e+01, 4.23141e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    3.555435  144.215881  276.677734  478.851379    0.686453      0   person
+1  413.464600    0.955683  494.826050   61.170624    0.423141     29  frisbee
+[DEBUG]: Offset: 140.11658477783203, 311.53363037109375 of area 91396.41661860421 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(140.11658477783203), 'area': np.float64(91396.41661860421)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.3ms pre-process, 16.5ms inference, 3.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  2.52003, 146.65265, 283.15308, 478.52246,   0.57412,   0.00000]], device='cuda:0')
+[DEBUG]:        xmin        ymin        xmax        ymax  confidence  class    name
+0  2.520035  146.652649  283.153076  478.522461    0.574118      0  person
+[DEBUG]: Offset: 142.83655548095703, 312.5875549316406 of area 93133.63468766678 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(142.83655548095703), 'area': np.float64(93133.63468766678)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 15.6ms inference, 3.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.48024e+00, 1.43235e+02, 2.78323e+02, 4.79672e+02, 6.54782e-01, 0.00000e+00],
+        [4.13333e+02, 1.03615e+00, 4.95107e+02, 6.16395e+01, 3.30734e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    1.480240  143.234543  278.322998  479.672485    0.654782      0   person
+1  413.333466    1.036146  495.106659   61.639458    0.330734     29  frisbee
+[DEBUG]: Offset: 139.90161895751953, 311.4535140991211 of area 93140.40795902233 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(139.90161895751953), 'area': np.float64(93140.40795902233)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.5ms pre-process, 15.9ms inference, 4.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  1.02953, 149.17599, 277.80530, 479.38766,   0.65016,   0.00000],
+        [413.52798,   0.98167, 494.88461,  61.39179,   0.49651,  29.00000]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    1.029526  149.175995  277.805298  479.387665    0.650161      0   person
+1  413.527985    0.981668  494.884613   61.391792    0.496510     29  frisbee
+[DEBUG]: Offset: 139.41741180419922, 314.2818298339844 of area 91394.58989731595 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(139.41741180419922), 'area': np.float64(91394.58989731595)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 15.1ms inference, 3.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.08557e-01, 1.52288e+02, 2.73912e+02, 4.78719e+02, 5.97921e-01, 0.00000e+00],
+        [4.13224e+02, 9.82941e-01, 4.95115e+02, 6.13326e+01, 2.93037e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    0.208557  152.287674  273.911804  478.719482    0.597921      0   person
+1  413.223999    0.982941  495.115234   61.332573    0.293037     29  frisbee
+[DEBUG]: Offset: 137.0601806640625, 315.50357818603516 of area 89345.44592573307 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(137.0601806640625), 'area': np.float64(89345.44592573307)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 14.1ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.85559e-01, 1.50544e+02, 2.68658e+02, 4.78894e+02, 6.96464e-01, 0.00000e+00],
+        [4.13240e+02, 1.04275e+00, 4.94982e+02, 6.12214e+01, 3.31976e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    0.385559  150.544128  268.658478  478.893555    0.696464      0   person
+1  413.240448    1.042747  494.981537   61.221352    0.331976     29  frisbee
+[DEBUG]: Offset: 134.5220184326172, 314.7188415527344 of area 88087.25893918239 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(134.5220184326172), 'area': np.float64(88087.25893918239)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 3.0ms pre-process, 16.3ms inference, 4.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.12140e+00, 1.53664e+02, 2.64256e+02, 4.78679e+02, 6.73683e-01, 0.00000e+00],
+        [4.13450e+02, 1.02296e+00, 4.95080e+02, 6.12787e+01, 4.38665e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    2.121399  153.664139  264.255798  478.679077    0.673683      0   person
+1  413.449677    1.022961  495.080109   61.278728    0.438665     29  frisbee
+[DEBUG]: Offset: 133.1885986328125, 316.1716079711914 of area 85197.59566615336 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(133.1885986328125), 'area': np.float64(85197.59566615336)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 15.7ms inference, 3.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.42831e+00, 1.53831e+02, 2.63161e+02, 4.77609e+02, 5.91730e-01, 0.00000e+00],
+        [4.13416e+02, 1.07987e+00, 4.95019e+02, 6.11961e+01, 4.26880e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    3.428314  153.830902  263.161011  477.608612     0.59173      0   person
+1  413.415894    1.079872  495.019409   61.196098     0.42688     29  frisbee
+[DEBUG]: Offset: 133.29466247558594, 315.7197570800781 of area 84095.65768549964 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(133.29466247558594), 'area': np.float64(84095.65768549964)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 17.9ms inference, 4.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[0.00000e+00, 1.49128e+02, 2.51739e+02, 4.80000e+02, 6.47402e-01, 0.00000e+00],
+        [4.13427e+02, 1.17121e+00, 4.95231e+02, 6.14940e+01, 4.36637e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    0.000000  149.127594  251.738770  480.000000    0.647402      0   person
+1  413.427399    1.171207  495.231354   61.493999    0.436637     29  frisbee
+[DEBUG]: Offset: 125.869384765625, 314.5637969970703 of area 83293.41235975921 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(125.869384765625), 'area': np.float64(83293.41235975921)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.1ms pre-process, 14.9ms inference, 3.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  0.00000, 149.90154, 248.11601, 480.00000,   0.69836,   0.00000],
+        [413.40619,   1.19780, 495.31348,  61.45380,   0.55011,  29.00000]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    0.000000  149.901535  248.116013  480.000000    0.698358      0   person
+1  413.406189    1.197802  495.313477   61.453804    0.550106     29  frisbee
+[DEBUG]: Offset: 124.0580062866211, 314.95076751708984 of area 81902.71488386742 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(124.0580062866211), 'area': np.float64(81902.71488386742)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 15.1ms inference, 3.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[413.57578,   0.93951, 495.42703,  61.61267,   0.68516,  29.00000],
+        [  0.00000, 148.81662, 246.70825, 480.00000,   0.66758,   0.00000]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0  413.575775    0.939514  495.427032   61.612671    0.685159     29  frisbee
+1    0.000000  148.816620  246.708252  480.000000    0.667577      0   person
+[DEBUG]: Offset: 123.3541259765625, 314.40830993652344 of area 81705.67278704792 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(123.3541259765625), 'area': np.float64(81705.67278704792)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 15.6ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  0.00000, 150.03917, 244.30942, 480.00000,   0.61353,   0.00000],
+        [413.37799,   1.05702, 495.01483,  61.34882,   0.53538,  29.00000]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    0.000000  150.039169  244.309418  480.000000    0.613532      0   person
+1  413.377991    1.057020  495.014832   61.348816    0.535378     29  frisbee
+[DEBUG]: Offset: 122.15470886230469, 315.0195846557617 of area 80612.53841743013 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(122.15470886230469), 'area': np.float64(80612.53841743013)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 13.5ms inference, 3.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.47530e-01, 1.50371e+02, 2.43509e+02, 4.80000e+02, 6.86232e-01, 0.00000e+00],
+        [4.13557e+02, 1.11266e+00, 4.94976e+02, 6.11783e+01, 5.36838e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:         xmin        ymin        xmax        ymax  confidence  class     name
+0    0.14753  150.371353  243.508789  480.000000    0.686232      0   person
+1  413.55658    1.112659  494.975830   61.178272    0.536838     29  frisbee
+[DEBUG]: Offset: 121.82815933227539, 315.18567657470703 of area 80218.84265180223 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(121.82815933227539), 'area': np.float64(80218.84265180223)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.4ms pre-process, 14.3ms inference, 3.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  0.00000, 148.95447, 242.85533, 480.00000,   0.63575,   0.00000],
+        [413.56409,   1.16620, 495.19781,  61.27402,   0.51277,  29.00000]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    0.000000  148.954468  242.855331  480.000000    0.635753      0   person
+1  413.564087    1.166204  495.197815   61.274025    0.512767     29  frisbee
+[DEBUG]: Offset: 121.42766571044922, 314.47723388671875 of area 80396.17244428955 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(121.42766571044922), 'area': np.float64(80396.17244428955)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 16.0ms inference, 2.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.86028e+00, 1.53643e+02, 2.37264e+02, 4.77161e+02, 7.85018e-01, 0.00000e+00],
+        [4.13261e+02, 1.10852e+00, 4.95238e+02, 6.12509e+01, 3.12251e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    1.860275  153.643280  237.264435  477.160736    0.785018      0   person
+1  413.260712    1.108521  495.237640   61.250916    0.312251     29  frisbee
+[DEBUG]: Offset: 119.5623550415039, 315.4020080566406 of area 76157.35484098084 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(119.5623550415039), 'area': np.float64(76157.35484098084)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.7ms pre-process, 14.5ms inference, 3.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  2.08796, 151.52475, 237.45526, 476.00076,   0.69221,   0.00000]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax        ymax  confidence  class    name
+0  2.087959  151.52475  237.455261  476.000763    0.692214      0  person
+[DEBUG]: Offset: 119.77161026000977, 313.76275634765625 of area 76371.04376756819 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(119.77161026000977), 'area': np.float64(76371.04376756819)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.5ms pre-process, 14.9ms inference, 6.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  2.08796, 151.52475, 237.45526, 476.00076,   0.69221,   0.00000]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax        ymax  confidence  class    name
+0  2.087959  151.52475  237.455261  476.000763    0.692214      0  person
+[DEBUG]: Offset: 119.77161026000977, 313.76275634765625 of area 76371.04376756819 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(119.77161026000977), 'area': np.float64(76371.04376756819)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 3.0ms pre-process, 17.3ms inference, 3.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.06818e+00, 1.50962e+02, 2.36520e+02, 4.80000e+02, 5.88309e-01, 0.00000e+00],
+        [4.13202e+02, 1.16648e+00, 4.94965e+02, 6.12929e+01, 3.15798e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    2.068176  150.961594  236.519562  480.000000    0.588309      0   person
+1  413.202179    1.166485  494.964569   61.292866    0.315798     29  frisbee
+[DEBUG]: Offset: 119.29386901855469, 315.48079681396484 of area 77143.51025600126 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(119.29386901855469), 'area': np.float64(77143.51025600126)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.6ms pre-process, 13.2ms inference, 4.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.25363e+00, 1.52588e+02, 2.36553e+02, 4.75383e+02, 6.79498e-01, 0.00000e+00],
+        [4.13470e+02, 1.07246e+00, 4.95322e+02, 6.12322e+01, 3.49575e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    2.253632  152.588318  236.552826  475.382874    0.679498      0   person
+1  413.469635    1.072460  495.322479   61.232182    0.349575     29  frisbee
+[DEBUG]: Offset: 119.40322875976562, 313.985595703125 of area 75630.50432811677 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(119.40322875976562), 'area': np.float64(75630.50432811677)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 13.6ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.88064e+00, 1.52691e+02, 2.36234e+02, 4.76122e+02, 7.18603e-01, 0.00000e+00],
+        [4.13262e+02, 9.68323e-01, 4.95299e+02, 6.10969e+01, 2.53059e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    1.880638  152.691010  236.234253  476.122162    0.718603      0   person
+1  413.261719    0.968323  495.298706   61.096863    0.253059     29  frisbee
+[DEBUG]: Offset: 119.05744552612305, 314.4065856933594 of area 75797.25969299302 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(119.05744552612305), 'area': np.float64(75797.25969299302)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.5ms pre-process, 13.8ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  3.83188, 149.22923, 237.01480, 475.55573,   0.70404,   0.00000]], device='cuda:0')
+[DEBUG]:        xmin        ymin        xmax        ymax  confidence  class    name
+0  3.831879  149.229233  237.014801  475.555725    0.704038      0  person
+[DEBUG]: Offset: 120.42333984375, 312.3924789428711 of area 76093.76512130443 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(120.42333984375), 'area': np.float64(76093.76512130443)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.7ms pre-process, 15.6ms inference, 4.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  3.32132, 148.54712, 237.70731, 475.91614,   0.68041,   0.00000]], device='cuda:0')
+[DEBUG]:       xmin        ymin        xmax        ymax  confidence  class    name
+0  3.32132  148.547119  237.707306  475.916138    0.680414      0  person
+[DEBUG]: Offset: 120.51431274414062, 312.23162841796875 of area 76730.71030721068 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(120.51431274414062), 'area': np.float64(76730.71030721068)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.8ms pre-process, 9.8ms inference, 12.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[0.00000e+00, 1.46351e+02, 2.34150e+02, 4.80000e+02, 5.95833e-01, 0.00000e+00],
+        [4.13085e+02, 1.07491e+00, 4.95225e+02, 6.14036e+01, 2.65775e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax       ymax  confidence  class     name
+0    0.000000  146.351425  234.150269  480.00000    0.595833      0   person
+1  413.085205    1.074905  495.224670   61.40361    0.265775     29  frisbee
+[DEBUG]: Offset: 117.07513427734375, 313.1757125854492 of area 78123.90339912288 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(117.07513427734375), 'area': np.float64(78123.90339912288)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.1ms pre-process, 6.9ms inference, 9.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[0.00000e+00, 1.41055e+02, 2.36750e+02, 4.80000e+02, 5.65663e-01, 0.00000e+00],
+        [4.13063e+02, 1.02015e+00, 4.94951e+02, 6.13681e+01, 2.68164e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    0.000000  141.055313  236.750031  480.000000    0.565663      0   person
+1  413.063385    1.020147  494.950836   61.368134    0.268164     29  frisbee
+[DEBUG]: Offset: 118.37501525878906, 310.5276565551758 of area 80245.16496489523 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(118.37501525878906), 'area': np.float64(80245.16496489523)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.8ms pre-process, 13.8ms inference, 2.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[0.00000e+00, 1.43730e+02, 2.41201e+02, 4.80000e+02, 5.74608e-01, 0.00000e+00],
+        [4.13088e+02, 1.06683e+00, 4.95409e+02, 6.14594e+01, 4.52545e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    0.000000  143.730423  241.201218  480.000000    0.574608      0   person
+1  413.088257    1.066828  495.408691   61.459435    0.452545     29  frisbee
+[DEBUG]: Offset: 120.6006088256836, 311.8652114868164 of area 81108.63143786998 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(120.6006088256836), 'area': np.float64(81108.63143786998)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 15.3ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.13547e+02, 9.34237e-01, 4.95284e+02, 6.14954e+01, 5.72293e-01, 2.90000e+01],
+        [0.00000e+00, 1.39621e+02, 2.37867e+02, 4.80000e+02, 3.99090e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0  413.547211    0.934237  495.283783   61.495354    0.572293     29  frisbee
+1    0.000000  139.620789  237.867447  480.000000    0.399090      0   person
+[DEBUG]: Offset: 118.93372344970703, 309.8103942871094 of area 80965.13399948645 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(118.93372344970703), 'area': np.float64(80965.13399948645)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.4ms pre-process, 14.3ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.67813e-01, 1.44969e+02, 2.43641e+02, 4.80000e+02, 6.26648e-01, 0.00000e+00],
+        [4.13346e+02, 1.11638e+00, 4.95467e+02, 6.14704e+01, 4.66605e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax       ymax  confidence  class     name
+0    0.367813  144.969498  243.641464  480.00000    0.626648      0   person
+1  413.346191    1.116379  495.466797   61.47036    0.466605     29  frisbee
+[DEBUG]: Offset: 122.004638671875, 312.48474884033203 of area 81504.09353681328 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(122.004638671875), 'area': np.float64(81504.09353681328)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 3.3ms pre-process, 15.6ms inference, 3.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[5.58838e+00, 1.42065e+02, 2.69837e+02, 4.79200e+02, 7.72990e-01, 0.00000e+00],
+        [4.13518e+02, 1.03226e+00, 4.94880e+02, 6.12878e+01, 4.39641e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    5.588379  142.064621  269.837311  479.199768    0.772990      0   person
+1  413.518494    1.032255  494.879822   61.287849    0.439641     29  frisbee
+[DEBUG]: Offset: 137.7128448486328, 310.63219451904297 of area 89087.60252059484 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(137.7128448486328), 'area': np.float64(89087.60252059484)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.1ms pre-process, 13.2ms inference, 3.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.60324e+00, 1.40085e+02, 2.68946e+02, 4.79401e+02, 7.98785e-01, 0.00000e+00],
+        [4.13600e+02, 1.05103e+00, 4.94826e+02, 6.14855e+01, 4.85415e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    4.603241  140.085281  268.946381  479.400635    0.798785      0   person
+1  413.600464    1.051035  494.826416   61.485542    0.485415     29  frisbee
+[DEBUG]: Offset: 136.77481079101562, 309.74295806884766 of area 89695.68584697135 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(136.77481079101562), 'area': np.float64(89695.68584697135)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.2ms pre-process, 7.3ms inference, 7.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.25568e+00, 1.37320e+02, 2.73412e+02, 4.79006e+02, 7.47004e-01, 0.00000e+00],
+        [4.13468e+02, 1.08216e+00, 4.94845e+02, 6.12454e+01, 4.23074e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    3.255676  137.319534  273.411682  479.005737    0.747004      0   person
+1  413.467712    1.082163  494.844788   61.245361    0.423074     29  frisbee
+[DEBUG]: Offset: 138.33367919921875, 308.16263580322266 of area 92308.57986052707 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(138.33367919921875), 'area': np.float64(92308.57986052707)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.4ms pre-process, 14.2ms inference, 4.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.31413e+00, 1.38628e+02, 2.79803e+02, 4.79999e+02, 6.95039e-01, 0.00000e+00],
+        [4.13418e+02, 1.11481e+00, 4.95135e+02, 6.12776e+01, 4.03618e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    3.314133  138.628387  279.802734  479.998505    0.695039      0   person
+1  413.417664    1.114805  495.134705   61.277611    0.403618     29  frisbee
+[DEBUG]: Offset: 141.55843353271484, 309.3134460449219 of area 94384.94635806978 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(141.55843353271484), 'area': np.float64(94384.94635806978)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.3ms pre-process, 15.9ms inference, 3.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.00563e+00, 1.37942e+02, 2.77126e+02, 4.80000e+02, 8.72154e-01, 0.00000e+00],
+        [4.13173e+02, 1.01634e+00, 4.95155e+02, 6.14004e+01, 3.89277e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:         xmin        ymin        xmax        ymax  confidence  class     name
+0    2.00563  137.942078  277.125977  480.000000    0.872154      0   person
+1  413.17334    1.016344  495.154907   61.400398    0.389277     29  frisbee
+[DEBUG]: Offset: 139.56580352783203, 308.9710388183594 of area 94107.09397634398 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(139.56580352783203), 'area': np.float64(94107.09397634398)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.8ms pre-process, 9.2ms inference, 6.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[3.29256e+00, 1.30953e+02, 2.79091e+02, 4.79962e+02, 8.33997e-01, 0.00000e+00],
+        [4.13185e+02, 1.02822e+00, 4.95278e+02, 6.13620e+01, 4.36213e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    3.292557  130.953018  279.091309  479.961609    0.833997      0   person
+1  413.185211    1.028221  495.278168   61.361992    0.436213     29  frisbee
+[DEBUG]: Offset: 141.19193267822266, 305.45731353759766 of area 96256.13369289064 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(141.19193267822266), 'area': np.float64(96256.13369289064)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 10.7ms inference, 4.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.65988e+00, 1.33318e+02, 2.87767e+02, 4.77868e+02, 8.33307e-01, 0.00000e+00],
+        [4.13252e+02, 1.09089e+00, 4.95168e+02, 6.13538e+01, 3.59650e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    2.659882  133.318451  287.766998  477.868195    0.833307      0   person
+1  413.252197    1.090887  495.168274   61.353813    0.359650     29  frisbee
+[DEBUG]: Offset: 145.21343994140625, 305.59332275390625 of area 98233.58397217467 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(145.21343994140625), 'area': np.float64(98233.58397217467)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.5ms pre-process, 7.3ms inference, 8.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  2.53815, 132.09216, 303.44373, 478.51361,   0.77998,   0.00000]], device='cuda:0')
+[DEBUG]:        xmin        ymin        xmax        ymax  confidence  class    name
+0  2.538147  132.092163  303.443726  478.513611    0.779979      0  person
+[DEBUG]: Offset: 152.99093627929688, 305.3028869628906 of area 104240.14618043974 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(152.99093627929688), 'area': np.float64(104240.14618043974)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.9ms pre-process, 13.0ms inference, 3.4ms NMS per image at shape (1, 3, 480, 640)
+tensor([[4.79033e+00, 1.24318e+02, 3.32634e+02, 4.77470e+02, 7.71961e-01, 0.00000e+00],
+        [4.13389e+02, 1.05383e+00, 4.95132e+02, 6.14400e+01, 4.37916e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    4.790329  124.317856  332.634399  477.469727    0.771961      0   person
+1  413.389191    1.053835  495.131683   61.440025    0.437916     29  frisbee
+[DEBUG]: Offset: 168.71236419677734, 300.89379119873047 of area 115778.74678089959 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(168.71236419677734), 'area': np.float64(115778.74678089959)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 14.8ms inference, 3.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[8.20474e+00, 1.23335e+02, 3.41390e+02, 4.77467e+02, 8.17785e-01, 0.00000e+00],
+        [4.13525e+02, 1.21720e+00, 4.95378e+02, 6.14385e+01, 4.26668e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    8.204742  123.334930  341.390289  477.467072    0.817785      0   person
+1  413.525330    1.217203  495.378418   61.438484    0.426668     29  frisbee
+[DEBUG]: Offset: 174.79751586914062, 300.4010009765625 of area 117991.71110284328 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(174.79751586914062), 'area': np.float64(117991.71110284328)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.4ms pre-process, 14.3ms inference, 3.6ms NMS per image at shape (1, 3, 480, 640)
+tensor([[6.47595e+00, 1.22393e+02, 3.51428e+02, 4.77291e+02, 8.13918e-01, 0.00000e+00],
+        [4.13525e+02, 1.15044e+00, 4.95140e+02, 6.12367e+01, 3.01666e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    6.475952  122.392563  351.428131  477.290527    0.813918      0   person
+1  413.524658    1.150440  495.140320   61.236744    0.301666     29  frisbee
+[DEBUG]: Offset: 178.95204162597656, 299.84154510498047 of area 122422.82615324901 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(178.95204162597656), 'area': np.float64(122422.82615324901)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 12.5ms inference, 3.1ms NMS per image at shape (1, 3, 480, 640)
+tensor([[7.28168e+00, 1.20972e+02, 3.58739e+02, 4.77427e+02, 8.11906e-01, 0.00000e+00],
+        [4.13394e+02, 1.28178e+00, 4.95071e+02, 6.11549e+01, 3.06549e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    7.281677  120.972382  358.739319  477.426544    0.811906      0   person
+1  413.393555    1.281780  495.071411   61.154896    0.306549     29  frisbee
+[DEBUG]: Offset: 183.010498046875, 299.199462890625 of area 125278.53932563215 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(183.010498046875), 'area': np.float64(125278.53932563215)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.5ms pre-process, 13.3ms inference, 4.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[5.34625e+00, 1.17464e+02, 3.84125e+02, 4.80000e+02, 8.13057e-01, 0.00000e+00],
+        [4.13472e+02, 1.27622e+00, 4.95340e+02, 6.13032e+01, 3.61687e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    5.346252  117.463898  384.124542  480.000000    0.813057      0   person
+1  413.471832    1.276222  495.339996   61.303169    0.361687     29  frisbee
+[DEBUG]: Offset: 194.7353973388672, 298.73194885253906 of area 137320.80481618736 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(194.7353973388672), 'area': np.float64(137320.80481618736)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 3.6ms pre-process, 16.8ms inference, 4.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[6.53192e+00, 1.13640e+02, 3.99606e+02, 4.76270e+02, 7.81335e-01, 0.00000e+00],
+        [4.13104e+02, 1.32039e+00, 4.95152e+02, 6.15038e+01, 2.85052e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    6.531921  113.640457  399.606384  476.270447    0.781335      0   person
+1  413.104309    1.320387  495.152222   61.503792    0.285052     29  frisbee
+[DEBUG]: Offset: 203.06915283203125, 294.95545196533203 of area 142540.58839949593 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(203.06915283203125), 'area': np.float64(142540.58839949593)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.2ms pre-process, 15.2ms inference, 3.0ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 22.88274, 104.63634, 458.06409, 477.84290,   0.80202,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin        ymin        xmax        ymax  confidence  class    name
+0  22.882736  104.636337  458.064087  477.842896    0.802022      0  person
+[DEBUG]: Offset: 240.4734115600586, 291.23961639404297 of area 162412.53410254722 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(240.4734115600586), 'area': np.float64(162412.53410254722)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.4ms pre-process, 14.5ms inference, 3.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[ 19.58340, 103.87708, 458.29080, 478.46826,   0.73504,   0.00000]], device='cuda:0')
+[DEBUG]:         xmin        ymin        xmax        ymax  confidence  class    name
+0  19.583405  103.877075  458.290802  478.468262    0.735043      0  person
+[DEBUG]: Offset: 238.93710327148438, 291.17266845703125 of area 164335.92455150187 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(238.93710327148438), 'area': np.float64(164335.92455150187)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.7ms pre-process, 13.5ms inference, 4.8ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.13339e+01, 1.04099e+02, 4.69648e+02, 4.78102e+02, 6.56634e-01, 0.00000e+00],
+        [4.13239e+02, 1.13123e+00, 4.95282e+02, 6.15550e+01, 3.07161e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0   11.333862  104.098984  469.647949  478.101501    0.656634      0   person
+1  413.238800    1.131227  495.282379   61.554955    0.307161     29  frisbee
+[DEBUG]: Offset: 240.49090576171875, 291.1002426147461 of area 171410.6224033255 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(240.49090576171875), 'area': np.float64(171410.6224033255)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.8ms pre-process, 12.5ms inference, 3.9ms NMS per image at shape (1, 3, 480, 640)
+tensor([[6.99142e+00, 1.02193e+02, 4.66827e+02, 4.77680e+02, 7.95786e-01, 0.00000e+00],
+        [4.14077e+02, 5.37281e-02, 4.94681e+02, 6.25263e+01, 2.60185e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin        ymin        xmax        ymax  confidence  class     name
+0    6.991425  102.193161  466.827148  477.680420    0.795786      0   person
+1  414.076935    0.053728  494.681061   62.526299    0.260185     29  frisbee
+[DEBUG]: Offset: 236.90928649902344, 289.9367904663086 of area 172662.45550797367 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(236.90928649902344), 'area': np.float64(172662.45550797367)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 1.4ms pre-process, 6.4ms inference, 9.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.68817e+00, 9.89624e+01, 4.73560e+02, 4.80000e+02, 6.79315e-01, 0.00000e+00],
+        [4.14494e+02, 1.33263e+00, 4.94712e+02, 6.12604e+01, 3.53694e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0    1.688171  98.962402  473.559540  480.000000    0.679315      0   person
+1  414.493713   1.332632  494.712463   61.260384    0.353694     29  frisbee
+[DEBUG]: Offset: 237.6238555908203, 289.481201171875 of area 179800.73262102902 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(237.6238555908203), 'area': np.float64(179800.73262102902)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person, 1 frisbee
+Speed: 2.2ms pre-process, 14.9ms inference, 3.3ms NMS per image at shape (1, 3, 480, 640)
+tensor([[6.65213e+00, 9.97870e+01, 4.86949e+02, 4.79577e+02, 6.90043e-01, 0.00000e+00],
+        [4.14210e+02, 9.31763e-01, 4.95459e+02, 6.13029e+01, 3.34779e-01, 2.90000e+01]], device='cuda:0')
+[DEBUG]:          xmin       ymin        xmax        ymax  confidence  class     name
+0    6.652130  99.786957  486.949219  479.576935    0.690043      0   person
+1  414.210236   0.931763  495.458649   61.302856    0.334779     29  frisbee
+[DEBUG]: Offset: 246.80067443847656, 289.68194580078125 of area 182412.02073474415 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(246.80067443847656), 'area': np.float64(182412.02073474415)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.1ms pre-process, 14.8ms inference, 3.2ms NMS per image at shape (1, 3, 480, 640)
+tensor([[  9.13802, 101.13965, 513.11304, 477.52844,   0.56339,   0.00000]], device='cuda:0')
+[DEBUG]:        xmin        ymin        xmax        ymax  confidence  class    name
+0  9.138016  101.139648  513.113037  477.528442    0.563388      0  person
+[DEBUG]: Offset: 261.12552642822266, 289.33404541015625 of area 189690.55046912096 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(261.12552642822266), 'area': np.float64(189690.55046912096)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 1.8ms pre-process, 12.8ms inference, 4.7ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.88066e+01, 8.69096e+01, 5.77033e+02, 4.80000e+02, 4.39484e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:        xmin       ymin        xmax   ymax  confidence  class    name
+0  28.80661  86.909607  577.032593  480.0    0.439484      0  person
+[DEBUG]: Offset: 302.9196014404297, 283.4548034667969 of area 215502.3670154009 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(302.9196014404297), 'area': np.float64(215502.3670154009)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.2ms pre-process, 16.8ms inference, 3.7ms NMS per image at shape (1, 3, 480, 640)
+tensor([[2.05121e+01, 8.61097e+01, 5.84286e+02, 4.80000e+02, 5.74180e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:         xmin      ymin        xmax   ymax  confidence  class    name
+0  20.512054  86.10968  584.286377  480.0     0.57418      0  person
+[DEBUG]: Offset: 302.3992156982422, 283.0548400878906 of area 222065.24820205383 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(302.3992156982422), 'area': np.float64(222065.24820205383)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 person
+Speed: 2.4ms pre-process, 18.3ms inference, 4.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[1.63932e+02, 8.91234e+01, 5.09945e+02, 4.80000e+02, 2.61271e-01, 0.00000e+00]], device='cuda:0')
+[DEBUG]:          xmin       ymin       xmax   ymax  confidence  class    name
+0  163.931534  89.123444  509.94519  480.0    0.261271      0  person
+[DEBUG]: Offset: 336.93836212158203, 284.5617218017578 of area 135248.62656430015 and type <class 'numpy.float64'>
+[DEBUG]: {'offset': np.float64(336.93836212158203), 'area': np.float64(135248.62656430015)}
+[DEBUG]: Index of closest object is 0
+PRINTING FRAME RESULTS ********
+PRINTING FRAME RESULTS ********
+<class 'models.common.Detections'>
+image 1/1: 480x640 1 cat
+Speed: 2.1ms pre-process, 11.1ms inference, 5.5ms NMS per image at shape (1, 3, 480, 640)
+tensor([[5.58388e+01, 3.74085e+02, 2.67892e+02, 4.79937e+02, 3.29473e-01, 1.50000e+01]], device='cuda:0')
+[DEBUG]:         xmin        ymin        xmax        ymax  confidence  class name
+0  55.838829  374.085358  267.891876  479.937286    0.329473     15  cat
