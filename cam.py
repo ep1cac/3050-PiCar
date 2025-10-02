@@ -32,7 +32,6 @@ def find_objects(results):
     if debug:
         results_pd = results.pandas().xyxy[0]
         dbg_print(results_pd)
-
     items = []
     results = results.xyxy[0]
     for result in results:
@@ -66,9 +65,10 @@ def select_target(objects):
             break
     return obj
 
-
 def steer_motor(closest_obj, cam_w, cam_h):
-    return
+    offset_x_norm = closest_obj["offset_x"] / cam_w
+    # if offset_x < 0.4 or offset_x > 0.6:
+    return offset_x_norm
 
 def main():
     dbg_print("In main...")
