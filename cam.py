@@ -1,6 +1,7 @@
 import cv2
-import torch
+# import torch
 import argparse
+from ultralytics import YOLO
 
 
 # Integrate cmdl arguments later if needed. 
@@ -23,39 +24,42 @@ def cleanup(cam):
 
 # Import neural model
 def load_model():
-    model = torch.hub.load("ultralytics/yolov5", "yolov5s")
+    # model = torch.hub.load("ultralytics/yolov5", "yolov5s")
+    model = YOLO("./best2.pt")
     return model
 
 # Return dictionary of objects (offsets, boundbox area), will likely only need x-axis offset for steering
 def find_objects(results):
     debug = True
-    if debug:
-        results_pd = results.pandas().xyxy[0]
-        dbg_print(results_pd)
+    res = results[0]  # get first Results object
+    boxes = res.boxes
     items = []
-    results = results.xyxy[0]
-    for result in results:
-        x_min, y_min, x_max, y_max, conf, cls = result
-        if cls.int() == 0: # TODO: change to pole after training with custom dataset 
+    for box in boxes:
+        x_min, y_min, x_max, y_max = box.xyxy[0].tolist()
+        # conf = box.conf.item()
+        cls = int(box.cls.item())
+        if cls == 0: 
             len_x = x_max - x_min
             len_y = y_max - y_min
             area = len_x * len_y
-            # Using results.xywh to get center also option, but I believe is more resource-intensive 
-            # since we will need to reparse data.
             offset_x = (x_max + x_min) / 2
             offset_y = (y_max + y_min) / 2
             items.append({
-                "offset_x": offset_x, 
+                "offset_x": offset_x,
                 "offset_y": offset_y,
                 "area": area
             })
-            dbg_print(f"Offset: {offset_x}, {offset_y} of area {area} and type {type(offset_x)}")
-    # TODO: integrate with motor control
+            if debug:
+                dbg_print(f"Offset: {offset_x}, {offset_y} of area {area}")
     return items
+
 
 # find closest object and sets it as target
 # TODO: look into setting target in YOLO model
 def select_target(objects):
+    if not objects:
+        dbg_print("No objects detected. Skipping target selection...")
+        return None
     closest_obj_area = max([i["area"] for i in objects])
     dbg_print(f"closest_obj_area: {closest_obj_area}")
     for index, obj in enumerate(objects):
@@ -88,12 +92,13 @@ def main():
         results = model(frame)
         objects_dict = find_objects(results)
         closest_obj = select_target(objects_dict)
-        dbg_print(closest_obj)
-        annotated_frame = results.render()[0]
+        annotated_frame = results[0].plot()
         cv2.imshow("Labled Capture", annotated_frame)
         if cv2.waitKey(1) == ord('q'):
             print("Exiting...")
             break
+        if closest_obj is None: continue
+        dbg_print(closest_obj)
 
     cleanup(cam)
 
