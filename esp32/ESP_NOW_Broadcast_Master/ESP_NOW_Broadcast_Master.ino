@@ -110,7 +110,7 @@ void loop() {
   }
 
 #else
-  char data[32];;
+  char data[32];
   snprintf(data, sizeof(data), "Hello, World! #%lu", msg_count++);
 
   Serial.printf("Broadcasting message: %s\n", data);
