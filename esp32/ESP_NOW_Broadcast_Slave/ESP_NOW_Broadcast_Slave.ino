@@ -24,7 +24,7 @@
 
 
 /* Receiver */
-typedef struct __attribute(packed)__{
+typedef struct __attribute((packed))__{
   char lat[32];
   char lon[32];
   uint32_t time;

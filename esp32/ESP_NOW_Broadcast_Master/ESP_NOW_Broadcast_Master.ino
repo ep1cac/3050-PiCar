@@ -55,7 +55,7 @@ public:
 };
 
 /* GPS Data Struct */
-typedef struct _gps_data{
+typedef struct __attribute((packed))__ _gps_data{
   char lat[32];
   char lon[32];
   uint32_t time;
