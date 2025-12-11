@@ -101,7 +101,8 @@ void register_new_master(const esp_now_recv_info_t *info, const uint8_t *data, i
 /* Main */
 
 void setup() {
-  Serial.begin(115200);
+  // Serial.begin(115200);
+  Serial.begin(9600);
 
   // Initialize the Wi-Fi module
   WiFi.mode(WIFI_STA);

@@ -71,7 +71,8 @@ ESP_NOW_Broadcast_Peer broadcast_peer(ESPNOW_WIFI_CHANNEL, WIFI_IF_STA, nullptr)
 /* Main */
 
 void setup() {
-  Serial.begin(115200);
+  // Serial.begin(115200);
+  Serial.begin(9600);
 
   // Initialize the Wi-Fi module
   WiFi.mode(WIFI_STA);
@@ -102,6 +103,7 @@ void setup() {
 void loop() {
   // Broadcast a message to all devices within the network
 #ifdef DEBUG
+  Serial.println("In debug, broadcasting...");
   gps_data data = { "123.456", "789.123", millis() };
   // char data[128];
   // snprintf(data, sizeof(data), "Lat: %s, Lon: %s, Time: %lu", data.lat, data.lon, data.time);
